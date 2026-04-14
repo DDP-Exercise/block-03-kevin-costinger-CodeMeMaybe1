@@ -1,1 +1,70 @@
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap);body{background-color:#222;color:#222;font-family:'Inter',sans-serif;font-size:11pt}h1{text-align:center;margin-bottom:35px}#expenseTracker{background-color:aliceblue;border:1px solid #000;border-radius:5px;padding:20px 40px 5px 40px;width:85vw;margin:5vh auto;position:relative;min-height:90vh;box-sizing:border-box}table{width:100%;margin-top:40px;text-align:center}form{text-align:center}p{margin-top:20px;margin-bottom:0;text-align:center;font-size:9pt;position:absolute;bottom:10px;width:100%}.delete{cursor:pointer}
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap);
+
+body {
+    background-color: #222;
+    color: #222;
+    font-family: 'Inter', sans-serif;
+    font-size: 11pt;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#expenseTracker {
+    background-color: #f6dce6;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 20px 40px 5px 40px;
+    width: 85vw;
+    margin: 5vh auto;
+    position: relative;
+    min-height: 90vh;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 9pt;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #ff85c1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 11pt;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background: #e11281;
+    box-shadow: 0 0 10px rgba(255, 20, 147, 0.5);
+}
